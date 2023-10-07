@@ -12,7 +12,7 @@
    brew install tesseract
    ```
 
-   **Optional (Chinese Language Data as an Example)**:
+   **Optional**:
    If you wish to add language support, such as for Chinese Simplified and Traditional, you can do the following:
    ```bash
    brew install tesseract-lang
@@ -31,7 +31,7 @@
    - Install Tesseract using the installer.
    - Add Tesseract's installation directory to your system's PATH.
 
-   **Optional (Chinese Language Data as an Example)**:
+   **Optional**:
    - If you wish to add specific language support, visit the [Tesseract GitHub releases](https://github.com/tesseract-ocr/tessdata) to download language data files.
    - As an example, for Chinese Simplified, you can download `chi_sim.traineddata` and for Chinese Traditional, download `chi_tra.traineddata`.
    - Place the downloaded `.traineddata` files into the `tessdata` directory of your Tesseract installation.
@@ -49,7 +49,7 @@
    sudo apt-get install tesseract-ocr
    ```
 
-   **Optional (Chinese Language Data as an Example)**:
+   **Optional**:
    For those who wish to add specific language support, such as Chinese Simplified and Traditional, you can do:
    ```bash
    sudo apt-get install tesseract-ocr-chi-sim tesseract-ocr-chi-tra
